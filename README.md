@@ -96,26 +96,13 @@
 ### 1. Клонируйте репозиторий
 
 ```bash
-git clone https://github.com/ваш-ник/название-репозитория.git
-cd название-репозитория
+git clone https://github.com/venoprotective/Tuna.git
+cd Tuna
 ```
 
 ### 2. Установите зависимости
 
-```bash
-pip install scikit-learn xgboost lightgbm pandas
-```
-
-Или создайте файл `requirements.txt`:
-
-```txt
-scikit-learn>=1.3.0
-pandas>=2.0.0
-xgboost>=2.0.0
-lightgbm>=4.0.0
-```
-
-Затем выполните:
+Выполните для установки зависимостей:
 
 ```bash
 pip install -r requirements.txt
@@ -124,8 +111,6 @@ pip install -r requirements.txt
 ---
 
 ## Быстрый старт
-
-Предположим, класс `Tuner` находится в файле `tuner.py`.
 
 ### Пример для регрессии
 
